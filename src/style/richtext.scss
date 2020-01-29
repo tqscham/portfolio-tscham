@@ -1,0 +1,19 @@
+.DraftEditor-root {
+    border: 1px solid $teal;
+    padding: 20px;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+
+    &:focus-within {
+        border: 1px solid $dark-teal;
+    }
+
+}
+
+.rdw-emoji-modal {
+    left: -124px;
+}
+
+.rdw-embedded-modal {
+    left: -80px;
+}
